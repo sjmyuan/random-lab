@@ -9,3 +9,10 @@ Use different algorithm to generate random number following some distribution
   val random = Normal(1000)
   val number = random.nextCentralLimit(100000)
   ```
+### Box-Muller
++ [Theorem](https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform)
++ Usage
+  ```scala
+  val random = Normal(1000)
+  val number = random.nextBoxMuller
+  ```
