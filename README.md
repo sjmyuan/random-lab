@@ -1,4 +1,4 @@
-# Random Lab
+# Random Lab ![build](https://travis-ci.org/sjmyuan/random-lab.svg)
 Use different algorithm to generate random number following some distribution
 
 ## Normal Distribution
